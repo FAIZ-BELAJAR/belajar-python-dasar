@@ -1,0 +1,3 @@
+File Python:
+Pada kenyataan nya, saat membuat program menggunakan Python, kita biasanya akan sangat jarang menggunakan Python Interactive shell, biasanya kita akan simpan kode porgram python kita di dalam file 
+File python menggunakan ekstensi .py, menggunakan huruf kecil semua, jika butuh lebih dari satu kata, pisahkan kata dengan undescore (_), dan terkhir hindari spasi dan karakter khusus pada nama file 

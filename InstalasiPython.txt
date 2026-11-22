@@ -1,0 +1,6 @@
+https://www.python.org.donwloads/
+
+Gunakan terina ketik 
+python --version
+atay
+python3 --version

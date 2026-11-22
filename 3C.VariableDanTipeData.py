@@ -97,6 +97,14 @@ print(skor)
 
 print(namanyo, usianyo)
 
+# Konversi Tipe data 
+# Konversi tipe data adalah mengubah data dari satu tipe ke tipe lain nya
+# Terdapat beberapa function yang bisa kita gunakan untuk melakukan konversi dari satu tipe data ke tipe data lain nya 
+# int(), mengubah string atau data lain menjadi integer(bilangan bulat)
+# str(), mengubah integer atau data yang lain menjadi string (teks)
+# float(), mengubah string atau integer menjadi float (bilangan desimal)
+# bool(), mengubah data lain menjadi boolean (true/false)
+
 
 # python 3C.VariableDanTipeData.py
 

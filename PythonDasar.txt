@@ -1,0 +1,24 @@
+ Python adalah bahasa pemrograman tingkat tinggi yang dibyat oleh guido van rossum, dan pertama kali dirilis pada tahun 1991, python terkenal karena sintaksnya yang sederhana dan mudah di pahami, mirip dengan bahasa inggris 
+ https://www.python.org
+
+
+// Karakteristik python 
+Mudah dipelajari
+Interpreted languange
+Cross Platform 
+Open source
+Versatile
+
+// Kegunaan Python 
+Web Development: Django, Flask 
+Data Science & Analytics: Pandas, NumPy, Matplotlib
+Machine Learning: RensorFlow, scikit-learn 
+Automation/Scripting: Otomatisasi tugas repetitif 
+Dekstop Applications: Tkinter, PyQt 
+Game Development: Pygame
+
+// Kekurangan Python 
+Kecepatan eksekusi lebih lambat dibanding bahasa compiled (C, C++, Java, Golang dll)
+Konsumsi memori yang lebih besar 
+Tidak ideal untuk mobile development 
+
