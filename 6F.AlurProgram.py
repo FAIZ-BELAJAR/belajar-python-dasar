@@ -16,4 +16,23 @@ elif true == "Kocak":
 else :
     print("salah")
 
+# Pernyataan Match Case 
+# match case adalah fitur alternatif yang lebih bersih untuk kemungkinan kondisi yang banyak, jauh lebih efisien dan bersih ketimbang menggunakan elif yang banyak
+
+hari: str = str(input("Masukan nama hari: ")).lower()
+match hari :
+    case "senin" | "selasa" | "rabu" | "kamis" | "jumat":
+        print("Hari biasa")
+    case "sabtu" | "minggu": 
+        print("Hari Libur")
+    case _:
+        print("Nama hari tidak valid")
+
+# Conditional Express (Ternary Operator)
+# Conditional expression memungkinkan kita menulis kondisi sederhana dalam satu baris
+berhasil: str = str(input("berhasil atau tidak?")).lower()
+keadaan = "Berhasil cok" if berhasil == "berhasil" else "Gagal blayy"
+
+print(keadaan)
+
 # python 6F.AlurProgram.py
