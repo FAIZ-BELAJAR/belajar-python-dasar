@@ -39,4 +39,31 @@ while (ulang):
     angka += 1
     if (angka == 21):
         ulang = False
+
+# Break dan Continue 
+# break digunakan untuk keluar dari perulangan 
+# continue digunakan untuk melanjutkan ke iterasi berikutnya dan ngeskip sisa kode yang ada 
+
+
+for i in range(20):
+    if (i == 5):
+        continue
+    print("Perulangan ke: " + str(i))
+    if(i == 10):
+        break
+
+    # Perulangan ini akan berhenti di iterasi ke 10 dan tak akan ada print perulangan ke 5
+
+# Loop dengan Else 
+# Python memiliki fitur unuk dimana loop bisa memiliki clause else yang dieksekusi jika loop selesai secara normal (tanpa break)
+# Ini berlaku pada for loop ataupun while loop
+
+for i in range(10):
+    print("perulangan ke: " + str(i + 1))
+else: 
+    print("Perulangan selesai")
+
+# Nested Loop
+# Tak ada pembatasan membuat perulangan, kita juga bisa membuat perulangan di dalam perulangan
+
 # python 7G.Perulangan.py
