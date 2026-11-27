@@ -78,5 +78,44 @@ except ZeroDivisionError:
 except:
     print("Terjadi error yang lain")
 
+# Try-Except-Else
+# try-except juga memiliki bagian else seperti pada if dan for dan while 
+# Bagian else dijalankan jika tidak ada error pada try-except
+# Jika terjadi error, bagian else tidak akan dijalankan
+
+try:
+    print(identitas["Nama"]) #key umur tidak pernah ada
+
+except KeyError:
+    print("Terjadi key Error")
+except ZeroDivisionError:
+    print("Terjadi pembagian dengan nol")
+except:
+    print("Terjadi error yang lain")
+else:
+    print("Gaada error kok")
+
+# Try-Except-Finally
+# else di try-except hanya akan dijalankan ketika tidak ada error 
+# Bagaimana jika kita ingin melakukan sesuatu, baik itu jika terjadi error ataupun tidak?
+# Kita bisa menggunakan finally
+# Finally selalu dijalankan, baik ada error atau tidak 
+
+
+try:
+    print(identitas["Nama"]) #key umur tidak pernah ada
+
+except KeyError:
+    print("Terjadi key Error")
+except ZeroDivisionError:
+    print("Terjadi pembagian dengan nol")
+except:
+    print("Terjadi error yang lain")
+else:
+    print("Gaada error kok")
+finally:
+    print("Error maupun gak Error finally ini bakal di eksekusi yahah")
+
+
 
 # python 10J.Error.py

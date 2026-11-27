@@ -1,0 +1,4 @@
+=== CATATAN HARIAN ===
+1. Menyimpan data secara permanen
+2. Membuat laporan dalam bentuk file
+3. Backup dan restore data aplikasi
