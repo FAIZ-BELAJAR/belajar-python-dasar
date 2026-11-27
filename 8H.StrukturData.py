@@ -40,5 +40,71 @@ print(nama_paling_belakang)
 for nama in nama_nama:
     print(nama)
 
+if "Faiz" in nama_nama :
+    print("Ada Faiz")
+
+
+# Tuple 
+# Tuple mirip dengan list, tetapi tidak bisa diubah setelah dibuat, Tuple ditulis dengan kurung biasa 
+# Untuk membuat tuple, kita bisa buat langsung menggunakan kurung, misal(satu, dua, tiga), kita bisa buat data bebas berapapun yang kita mau 
+# Untuk mengakses data di tuple, sama seperti di list dan string, kita bisa menggunakan index dengan kurung kotak 
+# Tuple tidak bisa diubah setelah dibuat, jadi tidak ada oeprasi untuk mengubah atau menghapus data di tuple 
+# Untuk mengetahui panjang tuple, kita bisa gunakan function len(tuple) sama seperti  di list, kita juga bisa melakukan iterasi di tuple 
+
+point: tuple[int] = (10, 11, 12)
+print(point[0]) 
+print(point[1])
+
+for angka in point :
+    print("Ini angka di tuple", angka)
+
+if 11 in point :
+    print("ada kok")
+
+# Dictionary
+# Dictionary menyimpan data dalam pasangan key-value (kunci-nilai). Dictionary ditulis dengan kurung kurawal {}
+# Untuk membuat data dictionary, kita perlu menentukan key dan juga valuenya 
+# Key di dictionary bisa tipe data seperti string, integer, float, boolean, namun biasanay kebanyakan orang menggunakan string untuk key nya 
+# Untuk mengakses dan mengubah value di dictionary, kita bisa gunakan key dengan kurung kotak, seperti di list 
+# Untuk menghapus value di dictionary, kita bisa gunakan kata kunci dengan delete sama seperti di list 
+# Untuk mengetahui panjang dictionary, kita bisa gunakan len(dictionary)
+# Dictionary juga bisa di iterasi menggunakan perulangan for sama seperti list, akan mengembalikan key dan value nya 
+
+siswa = {
+    "Nama": "Faiz",
+    "Nilai" : 100,
+    "Kelas": "203"
+}
+
+print(siswa)
+
+del(siswa["Kelas"]) # Untuk menghapus
+
+for key, nilai in siswa.items():
+    print("Key: ", key)
+    print("Value: ", nilai)
+
+
+# Set
+# Set adalah kumpulan data yang tidak berurutan dan tidak memiliki elemen duplikat
+# Set ditulis dengan kurung kurawal {} atau fungsi set
+# Untuk menambah data ke set, kita bisa gunakan method add(value)
+# Untuk menghapus data di set, kita bisa gunakan method remove(value)
+# Karena data di set tidak duplicate dan tidak berurutan, maka tidak bisa diakses menggunakan index 
+# Untuk mengakses data di set, biasanya menggnakan for
+
+buah = {"Apel", "Jeruk", "Pisang"}
+print(buah)
+
+buah.add("Mangga")
+print(buah)
+
+buah.remove("Pisang")
+print(buah)
+
+for i in buah:
+    print(i)
+
+
 # python 8H.StrukturData.py
 
